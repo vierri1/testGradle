@@ -4,8 +4,8 @@ jdk: oraclejdk8
 #before_install: gradle wrapper
 
 script:
-- gradle assemble
-- gradle check
+- ./gradlew assemble
+- ./gradlew check
 
 sudo: required
 
