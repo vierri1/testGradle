@@ -1,9 +1,11 @@
 language: java
 jdk: oraclejdk8
 
-sudo: false
+before_install: graddle wrapper
 
-script: gradle assemble
+script:
+- gradle assemble
+- gradle check
 
 notifications:
   email: false
