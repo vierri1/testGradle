@@ -2,7 +2,7 @@ language: java
 jdk: oraclejdk8
 
 #before_install: gradle wrapper
-
+install: true
 script:
 - ./gradlew assemble
 - ./gradlew check
