@@ -5,5 +5,5 @@ notifications:
 
 
 script:
-- gradle assemble
-- gradle check
+- ./gradlew assemble
+- ./gradlew check
