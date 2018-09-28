@@ -1,0 +1,9 @@
+language: java
+
+notifications:
+  email: false
+
+
+script:
+- gradle assemble
+- gradle check
