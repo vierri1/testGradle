@@ -12,4 +12,3 @@ sudo: required
 
 notifications:
   email: false
-
