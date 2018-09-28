@@ -1,12 +1,12 @@
 language: java
 jdk: oraclejdk8
 
+before_install: ./gradlew wrapper
+
 install: true
 script:
-- gradle assemble
-- gradle check
-
-sudo: required
+- ./gradlew assemble
+- ./gradlew check
 
 notifications:
   email: false
