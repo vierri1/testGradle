@@ -4,10 +4,10 @@ jdk: oraclejdk8
 #before_install: gradle wrapper
 install: true
 script:
-- ./gradlew assemble
-- ./gradlew check
+- gradle assemble
+- gradle check
 
-sudo: required
+#sudo: required
 
 notifications:
   email: false
