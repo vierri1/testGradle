@@ -1,12 +1,11 @@
 language: java
-jdk:
-- oraclejdk8
+jdk: oraclejdk8
 
 sudo: false
 
-script:
-- gradle assemble
-- gradle check
+#script:
+#- gradle assemble
+#- gradle check
 
 notifications:
   email: false
